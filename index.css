@@ -30,10 +30,12 @@ body,html {
 .navigation {
   font-family: "Genath-Bold";
   position: fixed;
-  padding-left: 4%;
+  padding-left: 10em;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
-  top: -3px;
-  height: 80px;
+  top: -0.8%;
+  height: 30px;
   /* z-index: 2000; */
   /* margin-top: 10px; */
   margin-bottom: 30px;
@@ -46,8 +48,11 @@ body,html {
 
 .navigation ul {
   margin: 0px;
-  padding-top: 15px;
+  padding-top: 0.8em;
   font-size: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .navigation li {
@@ -55,16 +60,17 @@ body,html {
   display: inline;
   background: url("images/arrow2.png") 0 50% no-repeat;
   list-style-type: none;
-  padding-left: 41px;
+  padding-left: 1.4em;
   /* margin-top: 10px; */
 }
 
 .navigation a {
-  padding: 12px 20px;
+  padding: 0.6em;
   padding-top: 30px;
   text-decoration: none;
   color: #000;
 }
+
 
 .navigation a:hover {
   padding-top: 15px;
@@ -77,14 +83,8 @@ body,html {
   position: fixed;
   width: 100%;
   height: 100%;
-  z-index: -99;
-}
+  z-index: -20;
 
-.content {
-  background-color: lightblue, opacity(0.6);
-  height: 400px;
-  width: 70vw;
-  overflow-y: scroll;
 }
 
 #shrimp {
@@ -115,13 +115,6 @@ body,html {
   z-index: -1;
 }
 
-#floating-banner{
-    position:fixed;
-    top:0px;
-    left:100px;
-    width: 34em;
-}
-
 .logo {
   position: fixed;
   /* display: inline-block; */
@@ -138,8 +131,9 @@ body,html {
 
 .body {
   /* margin-top: 0px; */
-  z-index: 99;
-  display: inline;
+    z-index: 0;
+  /* display: block; */
+  float: center;
 }
 
 
@@ -209,24 +203,20 @@ body,html {
 }
 
 .photo {
-  display: inline;
-  margin-left: 0px;
-  height:2000px;
+  display: block;
+  /* margin-left: 300px; */
+  z-index: 0;
 
 }
 
 .photo img{
   position: absolute;
   /* display: block; */
-  margin-left: 80px;
+  margin-left: 100px;
   /* margin-top: -20px; */
-  z-index: 9;
-  width: 36em;
+  z-index: -3;
+  width: 600px;
 
-}
-
-.image-class {
-  opacity: 1;
 }
 
 span {
@@ -234,33 +224,10 @@ span {
 }
 
 span img {
-  width: 3em;
+  height: 2.5em;
   position: absolute;
   display: inline;
   margin: auto auto;
   /*float: left;*/
   left: 0;
-}
-
-
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #2d24e7;
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #000000;
 }
