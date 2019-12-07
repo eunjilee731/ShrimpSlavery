@@ -73,6 +73,10 @@ body,html {
   padding-top: 30px;
   text-decoration: none;
   color: #000;
+  float: none;
+  
+  top: 50%;
+  left: 50%;
 }
 
 
@@ -130,8 +134,8 @@ body,html {
   position: fixed;
   /* display: inline-block; */
   width: 29vw;
-  margin-top: -100px;
-  margin-left: 70em ;
+  margin-top: -300px;
+  margin-left: 70vw ;
     /* BVB moved z-index to 40 so navigation z-index is on top */
   z-index: 10;
   /* vertical-align: top; */
@@ -181,15 +185,14 @@ body,html {
   display: inline;
   /* text-align: center; */
   margin-left: 10px;
-  width: 100vw;
-  /* width: 870px; */
+  width: 870px;
   font-size: 20pt;
   z-index: 30;
 }
 
 .article h1 {
   width: 830px;
-  display: block;
+  display: inline-block;
   /* line-height: 70pt; */
   float: center;
   /* font-family: "VTF"; */
@@ -227,7 +230,7 @@ body,html {
   margin-left: 0px;
   /* margin-top: -20px; */
   z-index: -3;
-  width: 40vw;
+  width: 600px ;
 
 }
 

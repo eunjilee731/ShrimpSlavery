@@ -195,7 +195,7 @@ function findPlainTextExceptInLinks(element, substring, callback) {
 	for (var childi= element.childNodes.length; childi-->0;) {
 		var child= element.childNodes[childi];
 		if (child.nodeType===1) {
-			if (child.tagName.toLowerCase()!=='h1' && child.tagName.toLowerCase()!=='h2')
+			if (child.tagName.toLowerCase()!=='h1' && child.tagName.toLowerCase()!=='h2' && child.tagName.toLowerCase()!=='h4')
 				findPlainTextExceptInLinks(child, substring, callback);
 		} else if (child.nodeType===3) {
 			var index= child.data.length;
