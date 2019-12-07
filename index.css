@@ -140,6 +140,7 @@ body,html {
   cursor: pointer;
   text-align: left;
   display: block;
+  border: transparent;
   margin-left: 600px;
   /* line-height: 70pt; */
   float: center;
