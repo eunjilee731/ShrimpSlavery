@@ -1,0 +1,266 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,html {
+    width: 100%;
+    font-family: "Fortescue Pro";
+
+    /* BVB added background here.
+    See https://www.w3schools.com/css/css_background.asp for additional options */
+    /* background-image: url(images/background.svg);
+    background-repeat: space; */
+    /* background-size: 1400px 740px; */ */
+/*
+    @font-face {
+      font-family: "VTF";
+      font-weight: italic;
+      src: url("fonts/VTF victorianna thin talic.otf") format("opentype");
+      } */
+}
+.italic {
+  font-family: "Genath-BoldItalic";
+  font-size: 50pt;
+  line-height: 45pt;
+}
+
+.navigation {
+  font-family: "Genath-Bold";
+  position: fixed;
+  padding-left: 4%;
+  width: 100%;
+  top: -3px;
+  height: 80px;
+  /* z-index: 2000; */
+  /* margin-top: 10px; */
+  margin-bottom: 30px;
+  font-weight: bold;
+  word-spacing: 3rem;
+    /* BVB added z-index 50 so navigation is above logo */
+    z-index: 50;
+  /* border: 1px solid red; */
+}
+
+.navigation ul {
+  margin: 0px;
+  padding-top: 15px;
+  font-size: 28px;
+}
+
+.navigation li {
+  /* padding-top: 15px; */
+  display: inline;
+  background: url("images/arrow2.png") 0 50% no-repeat;
+  list-style-type: none;
+  padding-left: 41px;
+  /* margin-top: 10px; */
+}
+
+.navigation a {
+  padding: 12px 20px;
+  padding-top: 30px;
+  text-decoration: none;
+  color: #000;
+}
+
+.navigation a:hover {
+  padding-top: 15px;
+  text-decoration: underline;
+  color: #2d24e7;
+}
+
+/* BVB removed this, background is now in the body style*/
+.background{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -99;
+}
+
+.content {
+  background-color: lightblue, opacity(0.6);
+  height: 400px;
+  width: 70vw;
+  overflow-y: scroll;
+}
+
+#shrimp {
+  visibility: hidden;
+  position: fixed;
+  display: block;
+}
+
+#content-Sources {
+  /* color: #000;
+  border: 1px solid #000; */
+}
+
+.shrimp:hover img {
+    visibility: hidden;
+}
+
+.shrimp:hover{
+  background-color: #2d24e7;
+}
+
+
+.home{
+  /* margin: 80px; */
+  margin-top: 40px;
+  /* padding-left: 10%; */
+  width: 100%;
+  z-index: -1;
+}
+
+#floating-banner{
+    position:fixed;
+    top:0px;
+    left:100px;
+    width: 34em;
+}
+
+.logo {
+  position: fixed;
+  /* display: inline-block; */
+  width: 29vw;
+  margin-top: -350px;
+  margin-left: 1050px;
+    /* BVB moved z-index to 40 so navigation z-index is on top */
+  z-index: 10;
+  /* vertical-align: top; */
+  /* float: center; */
+  /* margin-top: 100px; */
+}
+
+
+.body {
+  /* margin-top: 0px; */
+  z-index: 99;
+  display: inline;
+}
+
+
+.collapsible{
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  outline: none;
+  width: 830px;
+  display: block;
+  margin-left: 450px;
+  /* line-height: 70pt; */
+  float: center;
+  /* font-family: "VTF"; */
+  margin-bottom: 0pt;
+  line-height: 44pt;
+  font-size: 20pt;
+  font-family: "Fortescue Pro";
+}
+
+.collapsible:hover {
+  color: #2d24e7;
+}
+
+.numbers{
+  /* margin-left: 10px; */
+  /* margin-bottom: 20pt; */
+  font-size: 30pt;
+  /* transform: rotate(90deg); */
+}
+
+.article {
+  display: inline;
+  /* text-align: center; */
+  margin: 10px;
+  width: 870px;
+  font-size: 20pt;
+  z-index: 30;
+}
+
+.article h1 {
+  width: 830px;
+  display: block;
+  /* line-height: 70pt; */
+  float: center;
+  /* font-family: "VTF"; */
+
+  margin-bottom: 20pt;
+  line-height: 44pt;
+  z-index: 30;
+}
+
+.article p {
+  width: 870px;
+  margin-top: 10pt;
+  margin-left: 100px;
+  line-height: 24pt;
+  z-index: 30;
+}
+
+.article a {
+  /* padding: 12px 20px;
+  padding-top: 30px;
+  text-decoration: none; */
+  color: #000;
+}
+
+.photo {
+  display: inline;
+  margin-left: 0px;
+  height:2000px;
+
+}
+
+.photo img{
+  position: absolute;
+  /* display: block; */
+  margin-left: 80px;
+  /* margin-top: -20px; */
+  z-index: 9;
+  width: 36em;
+
+}
+
+.image-class {
+  opacity: 1;
+}
+
+span {
+  position: relative;
+}
+
+span img {
+  width: 3em;
+  position: absolute;
+  display: inline;
+  margin: auto auto;
+  /*float: left;*/
+  left: 0;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2d24e7;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+}
