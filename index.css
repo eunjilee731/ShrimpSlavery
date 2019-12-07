@@ -139,8 +139,6 @@ body,html {
   background: transparent;
   cursor: pointer;
   text-align: left;
-  display: block;
-  border: transparent;
   margin-left: 600px;
   /* line-height: 70pt; */
   float: center;
@@ -149,6 +147,8 @@ body,html {
   line-height: 44pt;
   font-size: 1em;
   font-family: "Fortescue Pro";
+  border: none;
+  outline:none;
 }
 
 .collapsible:hover {
@@ -236,7 +236,7 @@ span img {
 
 
 span img:hover {
-  transform: scale(10);
+  transform: scale(5);
 }
 
 
