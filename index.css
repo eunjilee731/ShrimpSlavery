@@ -174,7 +174,7 @@ body,html {
 .article {
   display: inline;
   /* text-align: center; */
-  margin: 10px;
+  margin-left: 10px;
   width: 100vw;
   /* width: 870px; */
   font-size: 20pt;
@@ -209,7 +209,7 @@ body,html {
 }
 
 .photo {
-  display: absolute;
+  /* display: absolute; */
   /* margin-left: 300px; */
   z-index: 0;
 
@@ -218,10 +218,10 @@ body,html {
 .photo img{
   position: absolute;
   /* display: block; */
-  margin-left: 100px;
+  margin-left: 0px;
   /* margin-top: -20px; */
   z-index: -3;
-  width: 600px;
+  width: 40vw;
 
 }
 
@@ -240,7 +240,7 @@ span img {
 
 
 span img:hover {
-transform: scale(10);
+  transform: scale(10);
 }
 
 
