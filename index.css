@@ -28,6 +28,7 @@ body,html {
 }
 
 .navigation {
+  display: block;
   font-family: "Genath-Bold";
   position: fixed;
   padding-left: 10em;
