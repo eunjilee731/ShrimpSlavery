@@ -33,7 +33,7 @@ body,html {
   align-items: center;
   font-family: "Genath-Bold";
   position: fixed;
-  padding-left: auto;
+  padding-left: 11vw;
   padding-right: auto;
   margin-left: auto;
   margin-right: auto;
@@ -104,7 +104,6 @@ body,html {
 }
 
 .content {
-  background-color: lightblue, opacity(0.6);
   height: 500px;
   width: 70vw;
   overflow-y: scroll;
@@ -131,7 +130,7 @@ body,html {
   position: fixed;
   /* display: inline-block; */
   width: 29vw;
-  margin-top: -15em;
+  margin-top: -100px;
   margin-left: 70em ;
     /* BVB moved z-index to 40 so navigation z-index is on top */
   z-index: 10;
