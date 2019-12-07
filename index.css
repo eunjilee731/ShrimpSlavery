@@ -103,6 +103,13 @@ body,html {
   border: 1px solid #000; */
 }
 
+.content {
+  background-color: lightblue, opacity(0.6);
+  height: 500px;
+  width: 70vw;
+  overflow-y: scroll;
+}
+
 .shrimp:hover img {
     visibility: hidden;
 }
@@ -124,8 +131,8 @@ body,html {
   position: fixed;
   /* display: inline-block; */
   width: 29vw;
-  margin-top: -40vh;
-  margin-left: 70vw;
+  margin-top: -15em;
+  margin-left: 70em ;
     /* BVB moved z-index to 40 so navigation z-index is on top */
   z-index: 10;
   /* vertical-align: top; */
@@ -134,7 +141,7 @@ body,html {
 }
 
 
-.body {
+#body {
   /* margin-top: 0px; */
     z-index: 0;
   /* display: block; */
@@ -156,7 +163,7 @@ body,html {
   /* font-family: "VTF"; */
   margin-bottom: 0pt;
   line-height: 44pt;
-  font-size: 20pt;
+  font-size: 1em;
   font-family: "Fortescue Pro";
 }
 
@@ -194,7 +201,7 @@ body,html {
 }
 
 .article p {
-  width: 50vw;
+  width: 60vw;
   margin-top: 10pt;
   margin-left: 100px;
   line-height: 24pt;
