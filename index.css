@@ -92,6 +92,7 @@ body,html {
   visibility: hidden;
   position: fixed;
   display: block;
+
 }
 
 #content-Sources {
@@ -231,4 +232,9 @@ span img {
   margin: auto auto;
   /*float: left;*/
   left: 0;
+}
+
+
+span img:hover {
+transform: scale(10);
 }
