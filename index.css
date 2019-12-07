@@ -74,7 +74,6 @@ body,html {
   text-decoration: none;
   color: #000;
   float: none;
-
   top: 50%;
   left: 50%;
 }
@@ -95,23 +94,6 @@ body,html {
 
 }
 
-#shrimp {
-  visibility: hidden;
-  position: fixed;
-  display: block;
-
-}
-
-#content-Sources {
-  /* color: #000;
-  border: 1px solid #000; */
-}
-
-.content {
-  height: 500px;
-  width: 70vw;
-  overflow-y: scroll;
-}
 
 .shrimp:hover img {
     visibility: hidden;
@@ -132,6 +114,7 @@ body,html {
 
 .logo {
   position: fixed;
+  display: none;
   /* display: inline-block; */
   width: 29vw;
   margin-top: 50px;
@@ -158,9 +141,8 @@ body,html {
   border: none;
   text-align: left;
   outline: none;
-  width: 830px;
   display: block;
-  margin-left: 450px;
+  margin-left: 600px;
   /* line-height: 70pt; */
   float: center;
   /* font-family: "VTF"; */
@@ -181,31 +163,38 @@ body,html {
   /* transform: rotate(90deg); */
 }
 
+.content {
+  height: 500px;
+  width: 870px;
+  margin-left: 500px;
+  overflow-y: scroll;
+  border: solid 1px rgb(0,0,0)
+}
+
 .article {
   display: inline;
-  /* text-align: center; */
-  margin-left: 10px;
   width: 870px;
   font-size: 20pt;
   z-index: 30;
+
 }
 
 .article h1 {
   width: 830px;
   display: inline-block;
-  /* line-height: 70pt; */
   float: center;
-  /* font-family: "VTF"; */
-
   margin-bottom: 20pt;
   line-height: 44pt;
   z-index: 30;
 }
 
 .article p {
-  width: 32em;
+    /* margin-left: 100px; */
+  width: 800px;
   margin-top: 10pt;
+  /* padding-left: 100px; */
   line-height: 24pt;
+  padding-left: 20px;
   z-index: 30;
 }
 
