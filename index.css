@@ -138,9 +138,7 @@ body,html {
 .collapsible{
   background: transparent;
   cursor: pointer;
-  border: none;
   text-align: left;
-  outline: none;
   display: block;
   margin-left: 600px;
   /* line-height: 70pt; */
