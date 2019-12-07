@@ -74,7 +74,7 @@ body,html {
   text-decoration: none;
   color: #000;
   float: none;
-  
+
   top: 50%;
   left: 50%;
 }
@@ -134,7 +134,7 @@ body,html {
   position: fixed;
   /* display: inline-block; */
   width: 29vw;
-  margin-top: -300px;
+  margin-top: 50px;
   margin-left: 70vw ;
     /* BVB moved z-index to 40 so navigation z-index is on top */
   z-index: 10;
@@ -203,9 +203,8 @@ body,html {
 }
 
 .article p {
-  width: 60vw;
+  width: 32em;
   margin-top: 10pt;
-  margin-left: 100px;
   line-height: 24pt;
   z-index: 30;
 }
