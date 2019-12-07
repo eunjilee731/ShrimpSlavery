@@ -8,6 +8,7 @@
 body,html {
     width: 100%;
     font-family: "Fortescue Pro";
+    font-family: "Genath";
 
     /* BVB added background here.
     See https://www.w3schools.com/css/css_background.asp for additional options */
@@ -29,9 +30,11 @@ body,html {
 
 .navigation {
   display: block;
+  align-items: center;
   font-family: "Genath-Bold";
   position: fixed;
-  padding-left: 10em;
+  padding-left: auto;
+  padding-right: auto;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -121,8 +124,8 @@ body,html {
   position: fixed;
   /* display: inline-block; */
   width: 29vw;
-  margin-top: -350px;
-  margin-left: 1050px;
+  margin-top: -40vh;
+  margin-left: 70vw;
     /* BVB moved z-index to 40 so navigation z-index is on top */
   z-index: 10;
   /* vertical-align: top; */
@@ -172,7 +175,8 @@ body,html {
   display: inline;
   /* text-align: center; */
   margin: 10px;
-  width: 870px;
+  width: 100vw;
+  /* width: 870px; */
   font-size: 20pt;
   z-index: 30;
 }
@@ -190,7 +194,7 @@ body,html {
 }
 
 .article p {
-  width: 870px;
+  width: 50vw;
   margin-top: 10pt;
   margin-left: 100px;
   line-height: 24pt;
@@ -205,7 +209,7 @@ body,html {
 }
 
 .photo {
-  display: block;
+  display: absolute;
   /* margin-left: 300px; */
   z-index: 0;
 
