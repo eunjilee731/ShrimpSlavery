@@ -34,7 +34,7 @@ function showContent(id) {
 
     /* BVB fixed this scroll */
 	$([document.documentElement, document.body]).animate({
-        scrollTop: $("#body-" + id).offset().top-100},
+        scrollTop: $("#body-" + id).offset().top-300},
 			 'slow');
 
 
