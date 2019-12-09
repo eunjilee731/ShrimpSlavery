@@ -220,7 +220,7 @@ words.forEach(function(word){
 		var img = document.createElement('img');
 		img.classList.add('image-class');
 
-		img.setAttribute('src', 'images/shrimp/shrimp' + Math.ceil(Math.random() * 30) +'.jpg');
+		img.setAttribute('src', 'images/shrimp/shrimp' + Math.ceil(Math.random() * 40) +'.jpg');
 		a.appendChild(node.splitText(index));
 		a.appendChild(img);
 		node.parentNode.insertBefore(a, node.nextSibling);
